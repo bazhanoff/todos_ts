@@ -1,0 +1,41 @@
+.todo-item {
+    position: relative;
+}
+
+.todo-item__label {
+    word-break: break-all;
+    padding: 15px 15px 15px 60px;
+    border-bottom: 1px solid #ededed;
+    display: block;
+    line-height: 1.2;
+    transition: color 0.4s;
+}
+
+.todo-item__checkbox {
+    position: absolute;
+    top: 40%;
+    left: 16px;
+    transform: translateY(-45%);
+}
+
+.todo-item__label--completed {
+    text-decoration: line-through;
+}
+
+.todo-item__delete {
+    display: block;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-45%);
+    right: 10px;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    color: #cc9a9a;
+    margin-bottom: 11px;
+    transition: color 0.2s ease-out;
+    outline: none;
+}

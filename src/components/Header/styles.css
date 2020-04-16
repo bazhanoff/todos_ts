@@ -1,0 +1,10 @@
+.header {
+    text-align: center;
+  }
+  
+  .header__title {
+    font-size: 100px;
+    font-weight: 100;
+    color: rgba(175, 47, 47, 0.15);
+    margin-bottom: 20px;
+  }
